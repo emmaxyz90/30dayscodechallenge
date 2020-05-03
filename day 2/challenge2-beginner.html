@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Survey Form</title>
+		<link rel="Stylesheet" type="text/css" href="styles2.css"/>
+		<meta name="viewport"  content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+	</head>
+	<body>
+		<section id="form">
+			<div class="row">
+				<div class="container">
+					<form action="" method="">
+						<div class="survey">
+							<h1>Survey Form</h1>
+							<div class="instruction">
+								<h4>Kindly help fill the survey form.</h4>
+							</div>
+							
+							<div class="userinput">
+								<p>1. Full Name: <input type="text" name="fullname" placeholder="Enter full name" required maxlength="30"/></p>
+								<p>2.  Email Address:<input type ="email" name="email" placeholder="Enter email address" required /></p>
+							</div>
+							
+							<div class="surveyquestions">
+								<p>3. Kindly state your gender: <input type="radio" name="gender" value="male" checked /> Male 
+									<input type="radio" name="gender" value="female" /> female 
+								<p>4. Kindly select your age bracket. 
+									 <select name="age-bracket">
+										<option value="below-18">Below 18 years</option>
+										<option value="18-26">18-26 years</option>
+										<option value="27-40">27-40 years</option>
+										<option value="41-&-above">41 and above</option>
+									  </select></p>
+								<p>5. What is your point of view regarding the current pandemic COVID19?<br> <textarea name="view" rows="5" cols="50" class="textfield"></textarea></p>
+								
+								
+								<p>6. Do you think the lockdown issued by the federal goverment on state would ease the spread of the virus? <br>
+									  <input type="radio" name="question" value="true" /> true	<input type="radio" name="question" value="false" /> false </p>
+									  
+								<p>7. With the current measures taken by the government to suppress the spread of the virus, do you see the country going back fully to its activities soon?<br>
+									<input type="radio" name="question" value="true" /> True 
+									<input type="radio" name="question" value="false" /> false	
+									<input type="radio" name="question" value="unknown" /> Don't Know	
+								</p>
+								
+								<p>8. Some people still believe the COVID19 pandemic is not real, suggest ways to tackle this.<br>
+									<textarea name="view" rows="7" cols="50" class="textfield"></textarea>
+								</p>		
+									<button type="submit"class="submitBtn" >Submit</button>
+							</div>
+							<div class="appreciation">
+								<h4>Thanks for taking out time to fill this form</h4>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

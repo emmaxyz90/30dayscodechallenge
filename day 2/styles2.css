@@ -1,0 +1,54 @@
+*{
+	padding: 0px;
+	margin: auto;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	font-family: verdatta, sans-serif;
+}
+
+#form{
+	background-color:#ff33ff ;
+	padding: 20px;
+	border: 2px solid #751aff;
+	width:70%;
+	border-radius: 20px;
+}
+
+form h1{
+	text-align: center;
+	padding: 20px;
+	margin: 5px;
+}
+
+.survey p{
+	padding:25px;
+	margin:5px;
+	
+}
+
+.survey input{
+	text-align:center;
+	margin:10px 0px 0px 10px;
+	line-height:30px;
+	border-radius: 5px;
+}
+
+.textfield{
+	width: 100%;
+	border-radius: 5px;
+}
+
+.submitBtn{
+	border-radius: 10px;
+	padding: 10px;
+	margin:auto;
+	width:80px;
+	position: relative;
+	left: 45%;
+}
+
+.appreciation{
+	font-style: italic;
+	text-align: center;
+	margin: 30px;
+}

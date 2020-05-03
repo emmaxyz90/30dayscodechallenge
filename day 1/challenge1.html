@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Counter</title>
+		<style type= "text/css">
+			div{
+				width: 40%;
+				margin: auto;
+			}
+			
+			input, button{
+				display: inline-block;
+				padding: 10px;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div>
+			<button id="subtract" onclick="countersubtract(), style()" type="button" class="">Subtract</button>
+			<h1><span id="counter">0</span></h1>
+			<button id="add" onclick="counteradd()" type="button" class="">Add</button>
+			
+		</div>
+		
+		
+		<script type="text/javascript">
+			function counteradd(){
+				var foo= document.getElementById('counter').innerHTML;
+				foo++;
+				document.getElementById('counter').style.color= "blue";
+				document.getElementById('counter').innerHTML= foo;
+				
+			}
+			
+			function countersubtract(){
+				var foo= document.getElementById('counter').innerHTML;
+				foo--;
+				document.getElementById('counter').innerHTML= foo;
+				document.getElementById('counter').style.color= "red";
+			}
+			
+			function style (){
+			var foo = document.getElementById('counter').innerHTML;
+				if (foo => 0){
+					document.getElementById('counter').style.color= "blue";
+				}
+				else{
+					document.getElementById('counter').style.color= "red";
+				}
+			}
+		</script>
+	</body>
+	
+	
+</html>
